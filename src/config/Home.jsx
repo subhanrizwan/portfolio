@@ -42,8 +42,6 @@ const Home = ({Home_Contact,  Home_Intro,Foot_heading,HomeGif,
             </div>
             <div className="homeChild2">
                 {HomeGif}
-                {/* <NewComponent /> */}
-                {/* <img src={Home_Gif} alt="" /> */}
                 {FootImg}
             </div>
 

@@ -4,13 +4,12 @@ import './App.css'
 import LayOut from './components/layout'
 // import AppRouter from './Router/router'
 
-function App() {
+const App=()=> {
 
   return (
     <div className="App">
       
       <LayOut  />
-      {/* <AppRouter  /> */}
      
     </div>
   )

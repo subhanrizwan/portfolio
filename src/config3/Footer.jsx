@@ -1,7 +1,6 @@
 import React from "react";
 import Home from "../config/Home";
 import './Footer.css'
-// import SubhanImg from '../assets/images/subhanp1.jpeg'
 import SubhanImg from '../assets/images/subhi2.jpg'
 const Foot=()=>{
     return(

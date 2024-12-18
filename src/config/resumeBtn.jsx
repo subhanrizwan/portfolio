@@ -10,13 +10,3 @@ const Resume=()=>{
     )
 }
 export default Resume;
-
-// let ResumeVisit=()=>{
-//     // console.log('subhan');
-
-// return (
-//     // <Netlify />
-// // console.log()
-// )
-
-// }

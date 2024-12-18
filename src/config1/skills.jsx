@@ -10,8 +10,6 @@ const Skills = () => {
             <div className="skill-cont-child1">
                 <h1 className="heading">
                    Skills 
-
-                   
                 <p className="paragraph">
 I am from pakistan and currently
  living in karachi. I am doing bachelor's in computer Science and 
@@ -50,6 +48,18 @@ I am from pakistan and currently
                     <p>P-Shop</p>
                 </div>
                 
+                <div className="fbase">
+                <i class="fa-brands fa-gripfire"></i>
+                <p>Firebase</p> 
+                </div>
+                <div className="fbase">
+                <i class="fa-brands fa-gripfire"></i>
+                <p>Firebase</p> 
+                </div>
+                <div className="fbase">
+                <i class="fa-brands fa-gripfire"></i>
+                <p>Firebase</p> 
+                </div>
                 <div className="fbase">
                 <i class="fa-brands fa-gripfire"></i>
                 <p>Firebase</p> 

@@ -22,10 +22,6 @@ const headerStyle= {
   margin:0,
   padding:0,
   height: 95,
-  // backgroundColor:'red',
-  // display:'flex',
-  // paddingInline: 50,
-  // lineHeight: '65px',
   backgroundColor: '#171c28',
 };
 
@@ -66,7 +62,7 @@ const LayOut= () => {
 
       <Content style={contentStyle}>
         < Home
-        Home_Contact={"Hi I'm Subhan"}
+        Home_Contact={"Hi I'm Subhan Ahmed"}
         Home_Intro={'A passionate Front End Developer having an some experience of building Web applicationswith JavaScript, Reactjs, Antd, Bootstrap and some other cool libraries and frameworks.'}
         HomeResume={ <Resume /> }
         HomeGif={<img  src={Home_Gif} alt="" />}
