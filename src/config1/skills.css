@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     padding: 5rem;
+    padding-bottom: 3rem !important;
 }
 .skill-cont-child1{
     width: 750px;
@@ -163,6 +164,37 @@
     .skill-fot {
         font-size: 1.3rem; 
     } */
+}
+@media only screen and (max-width:1024px){
+    .heading {
+        font-size: 3rem;
+    }
+    .paragraph {
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+    }
+    .skill-cont-child2 {
+        width: 400px;
+        }
+        .skill-cont-child2 img {
+            width: 300px;
+            height: 300px;
+        }
+        .Box {
+            width: 100% ;
+            height: 300px;
+            padding-top: 3rem;
+        }
+            .skill-cont {
+padding: 0rem 5rem 5rem 5rem ;
+}
+.html, .css, .js, .reactjs, .bstrap, .pshop, .fbase, .antd {
+    width: 75px ;
+    height: 75px ;
+    margin-bottom: 0.5rem;
+}
+.skill-fot {
+    font-size: 0.9rem ;    }
 }
 @media only screen and (max-width:768px){
     .skill-cont{

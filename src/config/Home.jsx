@@ -1,19 +1,15 @@
 import React from 'react';
 import './Home.css'
 import SocIcons from './socialicons';
-// import Navbar from '../components/menu';
-// import Resume from './resumeBtn';
-// import NewComponent from './Animation';
-// import Contact from '../components/layout'
-// import Anim from './AnimatedHi';
+
 
 const Home = ({Home_Contact,  Home_Intro,Foot_heading,HomeGif,
     HomeResume,Foot_Intro,Foot_minHead,FootSecLast,FootImg}) => {
 
     return (
         
-        <div id='Home' className="home">
-            <div className="homeChild1">
+        <div id='Home' className="home" >
+            <div className="homeChild1" id="foot-child1">
                 <div className="wel-port">
                     <h1> {Home_Contact}
                     {<div className='FootHeading' >{Foot_heading}</div>}
@@ -40,7 +36,7 @@ const Home = ({Home_Contact,  Home_Intro,Foot_heading,HomeGif,
                 
                 </div> 
             </div>
-            <div className="homeChild2">
+            <div className="homeChild2" id="foot-child2">
                 {HomeGif}
                 {FootImg}
             </div>

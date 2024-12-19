@@ -10,10 +10,23 @@
     margin-top:0 ;
     font-family: 'Source Code Pro';
 }
-
+.mainCard{
+     width: 290px;
+     height:400px;
+     border:none;
+     background-color:rgb(18, 21, 23) ;
+}
 .mainCard:hover{  
 
     box-shadow: 0px 1px 12px 4px #ffff00;
     color: #000;
 
 }   
+@media only screen and (max-width:1024px){
+    .mainCard{
+        width: 260px;
+        height:360px;
+        border:none;
+        background-color:rgb(18, 21, 23) ;
+   }
+}

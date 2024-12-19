@@ -11,8 +11,8 @@ return(
   <Card
   className='mainCard'
     hoverable
-    style={{ width: 290,height:400,border:'none',
-    backgroundColor:'rgb(18, 21, 23)' }}
+    style={{
+    }}
     cover={
       <img className='logos' alt="" src={quizlogo || todologo || turologo || turologo} />} 
       >
