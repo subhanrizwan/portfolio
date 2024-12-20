@@ -22,4 +22,11 @@ background-position-y: center;
     .homeChild2{
         height: 400px;
     }
+    .footimg {
+        width: 300px;
+        height: 300px;
+    }
+    .sec-div {
+        font-size: 1rem;
+    }
 }

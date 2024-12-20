@@ -11,7 +11,6 @@ const Menubar=()=>{
 
         <div className="main_nav show-box">
         <ul className='ul_mbar'>
-
         <li>
           <a  href="#Home">Home</a>
         </li>

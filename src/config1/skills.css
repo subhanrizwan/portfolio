@@ -132,7 +132,6 @@
     background-color: orange;
 }
 .Pshop{
-
     font-size: 2em;
 }
 .skill-fot {
@@ -200,33 +199,88 @@ padding: 0rem 5rem 5rem 5rem ;
     .skill-cont{
         flex-wrap: wrap;
     }
+    .skill-cont {
+        padding: 0rem 3.5rem 0rem 3.5rem;
+    }
+    .Box {
+        height: 210px;
+    }
+    .html, .css, .js, .reactjs, .bstrap, .pshop, .fbase, .antd {
+        width: 65px;
+        height: 65px;
+    }
+    .heading{
+        height: 25%;
+    }
+    .skill-cont-child2 {
+        width: 100%;
+        height: 315px;
+    }
    
 }
 @media only screen and (max-width:425px){
-    /* .Box{
-        width: 80%;
+    .Box {
+        width: 100% !important;
+        padding-top: 1rem;
+        margin-top: 4rem;    }
+    .html, .css, .js, .reactjs, .bstrap, .pshop, .fbase, .antd {
+        width: 55px;
+        height: 55px;
+        font-size: 0.6rem;
     }
-    */
-     .skill-fot{
-        width: 96%;
-        font-size: 14px;
+    .skill-fot {
+        width: 100%;
+        font-size: 11px;
+        margin-left: 8px;
+        height: 30%;
+        line-height: 18px;
+    }
+    .paragraph {
+        font-size: 11px;
         margin-left: 8px;
     }
-    .paragraph{
-        font-size: 15px;
+    .heading {
+        height: 20%;
+        justify-content: start;
+    }
+    .skill-fot {
+        margin-top: 0rem;
+        width: 100%;
+        font-size: 11px;
         margin-left: 8px;
-    } 
+        height: 20%;
+        line-height: 18px;
+    }
+
+    .skill-cont-child1 {
+        height: 580px;
+    }
 }
 @media only screen and (max-width:375px){ 
+    .html, .css, .js, .reactjs, .bstrap, .pshop, .fbase, .antd {
+        width: 47px;
+        height: 47px;
+        font-size: 0.6rem;
+    }
     .paragraph{
-        width: 90%;
-font-size: 13px;
+        width: 100%;
+font-size: 12px;
     }
     .skill-cont-child2 img{
         width: 70%;
         height: 50%;
     }
-
+    .skill-cont {
+        padding: 0rem 1.8rem 0rem 1.8rem;
+    }
+    .skill-cont-child2 img {
+        width: 75%;
+        height: 75%;
+    }
+    .skill-cont-child2 {
+        width: 100%;
+        height: 315px;
+    }
 }
  @media only screen and (max-width:320px){ 
 

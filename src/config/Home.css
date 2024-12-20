@@ -110,6 +110,7 @@
     .homeChild2, .homeChild1 {
         width: 350px;
         height: 430px;
+        padding-top: 1rem;
     }
     .homeChild2 img {
         width: 300px;
@@ -132,27 +133,31 @@
     }   
 }
 @media only screen and (max-width:425px){
+    .homeChild2, .homeChild1 {
+        width: 350px;
+        height: 550px;
+        padding-top: 0rem;
+    }
+    .home{
+        flex-wrap: wrap;
+    }
     .wel-port{
         font-size: 14px;
     }
     .FootHeading{
         width: 300px;
-        /* background-color: aqua; */
-        /* font-size: 35px; */
     }
     .FootIntro{
-        
         font-size: 15px;
     }
-    .seclastfoot{
-        
-        margin-top: 10%;
-        font-size: 12px;
+    .seclastfoot{       
+        /* margin-top: 10%; */
+        /* font-size: 12px; */
+        display: none;
     }
-    .my-intro{
-        font-size: 17px;
+    .my-intro {
+        font-size: 13px;
     }
-
 }
 @media only screen and (max-width:375px){
     .wel-port{

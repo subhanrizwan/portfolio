@@ -1,8 +1,5 @@
 .Educ-cont{
-    /* font-family: 'Source Code Pro'; */
     width: 100%;
-    /* height: auto; */
-    /* background-color: #7f8491; */
 
     display: flex;
     justify-content: center;
@@ -10,21 +7,15 @@
 .Educ-cont-child{
     width:92%;
     height: auto;
-    /* height:500px; */
-    /* height: 650px; */
     margin: 0;
-    /* background-color: #1f232a; */
-
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
     flex-wrap:wrap ;
 }
 .card-parents{
-    /* font-family: 'Source Code Pro'; */
     width: 80%;
     height: 500px;
-    /* background-color: #7f8491; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,7 +25,6 @@
     font-family: 'Source Code Pro';
     width: 67%;
     height: 15%;
-    /* background-color: #2a2a2b; */
         font-size:50px;
       color: #fff;;
         margin-top:0px;
@@ -67,18 +57,26 @@
 }
 @media only screen and (max-width:768px){
     .Educ-cont-child{
-    height: 1000px;
+    height:950px;
 }
     .card-parents{
         height: 850px;
     }
+    .card-parents {
+        height: 755px;
+        width: 100%;
+    }
 }
 @media only screen and (max-width:425px){
+    
     .card-parents{
         height: 1250px;
         /* margin-top: -120px */
     }
     .Educ-cont-child{
         height: 100%;
+    }
+    .Educ-cont {
+        padding-bottom: 2rem;
     }
 }

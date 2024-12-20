@@ -4,7 +4,6 @@ import EducCard from './cards';
 import IslLogo from '../assets/images/islamia-logo.jpeg'
 import SmiuLogo from '../assets/images/smiu-logo.png'
 import Smit from '../assets/images/smit-logo.png'
-// import Anim from './AnimatedHi';
 
 const Education = () => {
     return (
@@ -27,7 +26,7 @@ const Education = () => {
             year1='September 2020 - August 2022'
             />
 
-            <EducCard  title2='Saylani Mass IT Training Programme'
+            <EducCard  title2='SMIT'
             field2='Web Development Course'
             year2='Feburary 2022 - January 2023'
             logo2={Smit}
@@ -39,5 +38,3 @@ const Education = () => {
     )
 }
 export default Education;
-
-// animated avatar hi
