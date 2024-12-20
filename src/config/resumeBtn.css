@@ -29,19 +29,18 @@ align-items: center;
 
 .btn:hover {
     background: #fff;
-    /* box-shadow: 0px 2px 12px 7px #97B1BF; */
-    /* border: 2px solid #f39c12; */
     box-shadow: 0px 2px 10px 6px #ffff00;
     color: #000;
 }
-/* .resBtn button{
-    font-family: 'Source Code Pro';
- 
-
-    background-color:	rgb(255,215,0);
-    color: black;
-    font-size: 17px;
+@media only screen and (max-width:768px){
+    .home {
+        padding: 1rem;
+    }
+    .resBtn {
+        margin-left: 20px;
+    }
+    .btn {
+        height: 45px;
+        padding: 1rem 2.3rem;
+    }
 }
-button:hover{
-    border-radius: 100px;
-} */

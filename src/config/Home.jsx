@@ -3,7 +3,7 @@ import './Home.css'
 import SocIcons from './socialicons';
 
 
-const Home = ({Home_Contact,  Home_Intro,Foot_heading,HomeGif,
+const Home = ({Home_Contact,Home_h4,Home_Intro,Foot_heading,HomeGif,
     HomeResume,Foot_Intro,Foot_minHead,FootSecLast,FootImg}) => {
 
     return (
@@ -16,7 +16,8 @@ const Home = ({Home_Contact,  Home_Intro,Foot_heading,HomeGif,
                     </h1>
                 </div>
                 <h4 className="sec-div">
-                    {  Foot_minHead}
+                    {Foot_minHead}
+                    {Home_h4}
                 </h4>
                 <p className="my-intro">
                     {Home_Intro}

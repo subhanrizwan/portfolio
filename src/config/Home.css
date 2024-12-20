@@ -19,12 +19,12 @@
     justify-content: space-evenly;
     text-align: left;
 }
-.wel-port{
+.wel-port {
     font-family: 'Source Code Pro';
-   width: 80%;
-   height: 80px;
-   display: flex;
-   margin-left: 20px;
+    width: 80%;
+    height: 35px;
+    display: flex;
+    margin-left: 20px;
 }
 .my-intro {
     font-family: 'Source Code Pro';
@@ -100,20 +100,36 @@
         font-size: 0.9rem ;    }
     .heading {
         font-size: 3rem;
-        }
-        #foot-child1 {
-            /* padding-top: 5rem; */
-        }    
+        }  
         .footimg {
             width: 350px;
             height: 350px;
         }
 }
 @media only screen and (max-width:768px){
-    .home{
-        flex-wrap: wrap;
+    .homeChild2, .homeChild1 {
+        width: 350px;
+        height: 430px;
     }
-   
+    .homeChild2 img {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+    }
+    .wel-port{
+        height: 45px;
+    }
+    .wel-port h1{
+        font-size: 2rem;
+    }
+    .sec-div {
+        padding-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+    .my-intro {
+        line-height: 30px;
+        font-size: 12px;
+    }   
 }
 @media only screen and (max-width:425px){
     .wel-port{
