@@ -3,7 +3,7 @@ import './Home.css'
 import SocIcons from './socialicons';
 
 
-const Home = ({Home_Contact,Home_h4,Home_Intro,Foot_heading,HomeGif,
+const Home = ({Home_Contact,Home_h4,Home_Intro,Home_Social,Foot_heading,HomeGif,
     HomeResume,Foot_Intro,Foot_minHead,FootSecLast,FootImg}) => {
 
     return (
@@ -11,9 +11,9 @@ const Home = ({Home_Contact,Home_h4,Home_Intro,Foot_heading,HomeGif,
         <div id='Home' className="home" >
             <div className="homeChild1" id="foot-child1">
                 <div className="wel-port">
-                    <h1> {Home_Contact}
+                    <h4> {Home_Contact}
                     {<div className='FootHeading' >{Foot_heading}</div>}
-                    </h1>
+                    </h4>
                 </div>
                 <h4 className="sec-div">
                     {Foot_minHead}
@@ -26,6 +26,7 @@ const Home = ({Home_Contact,Home_h4,Home_Intro,Foot_heading,HomeGif,
                 </p>
                 <p className="seclastfoot">
                     {FootSecLast}
+                    {Home_Social}
                 </p>
                 <div className="my-Soc-Med">
                 <SocIcons />

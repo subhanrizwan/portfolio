@@ -63,9 +63,10 @@ const LayOut= () => {
 
       <Content style={contentStyle}>
         < Home
-        Home_Contact={" I'm Subhan Ahmed"}
-        Home_h4={'subhan ahmed subhan ahmed subhan ahmed subhan ahmed '}
-        Home_Intro={'A passionate Front End Developer having an some experience of building Web applicationswith JavaScript, Reactjs, Antd, Bootstrap and some other cool libraries and frameworks.'}
+        Home_Contact={"Hello, I am Subhan Ahmed"}
+        Home_h4={'Web Developer'}
+        Home_Intro={'As a passionate web developer, I bring designs to life with seamless functionality, user-focused design, and a commitment to excellence'}
+        // Home_Social={'Follow More!'}
         HomeResume={ <Resume /> }
         HomeGif={<img  src={Home_Gif} alt="" />}
         

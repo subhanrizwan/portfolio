@@ -45,7 +45,7 @@
     font-family: 'Source Code Pro';
     width: 60%;
     height: 60px;
-    margin-left: 5px;
+    margin-left: 0px;
  }
 .homeChild2{
     width:500px;
@@ -64,10 +64,12 @@
 .sec-div {
     margin-left: 20px;
     padding-bottom: 1rem;
+    font-size: 4rem;
 }
 .seclastfoot {
     font-family: 'Source Code Pro';
     margin-left: 20px;
+    height: 40px;
 }
 @media only screen and (max-width:1440px){
     .home {

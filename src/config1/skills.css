@@ -9,16 +9,13 @@
 .skill-cont-child1{
     width: 750px;
     height: 635px;
-    /* background-color:blueviolet; */
     
     display: flex;
     flex-direction: column;
-    /* justify-content: space-; */
 }
 .skill-cont-child2{
     width:500px;
     height: 500px;
-    /* background-color: #b1b4bc; */
 
     display: flex;
     justify-content: center;
@@ -61,63 +58,89 @@
 .Box:hover{
     border-radius: 8px;
 }
-.html, .css, .js, .reactjs, .bstrap, .pshop, .fbase, .antd {
+.html, .css, .js, .reactjs,.wordpress, .bstrap, .pshop, .fbase, .antd {
     width: 90px;
     height: 90px;
     border-radius: 5px;
-    background-color: gray;
+    /* background-color: gray; */
     display: flex
 ;
     justify-content: center;
     align-items: space-evenly;
     cursor: pointer;
 }
+.html{
+    background-color: rgb(255,165,0);
+}
 .html:hover{    
         transform: scale(1.4) rotate(5deg);
     transition: 0.4s all;
-    background-color: rgb(255,165,0);
+}
+.css{
+    background-color: rgb(30,144,255);
 }
 .css:hover{
-
         transform: scale(1.4) rotate(5deg);
     transition: 0.4s all;
     background-color: rgb(30,144,255);
 }
+.js{
+    background-color: rgb(243, 221, 21);
+
+}
 .js:hover{
         transform: scale(1.4) rotate(5deg);
     transition: 0.4s all;
-    background-color: rgb(243, 221, 21);
+}
+.reactjs{
+    background-color: rgb(64,224,208);
 }
 .reactjs:hover{
         transform: scale(1.4) rotate(5deg);
     transition: 0.4s all;
-    background-color: rgb(64,224,208);
+}
+.wordpress{
+background-color: #21759b;
+}
+.wordpress:hover{
+    transform: scale(1.4) rotate(5deg);
+    transition: 0.4s all;   
+}
+.bstrap{
+    background-color: rgb(138,43,226);
 }
 .bstrap:hover{
         transform: scale(1.4) rotate(5deg);
     transition: 0.4s all;
-    background-color: rgb(138,43,226);
+}
+.pshop{
+    background-color: 	rgb(0,0,128);
 }
 .pshop:hover{
         transform: scale(1.4) rotate(5deg);
     transition: 0.4s all;
-    background-color: 	rgb(0,0,128);
+}
+.fa-html{
+    background-color: 	rgb(255, 187, 0);
+
 }
 .fa-html:hover{
         transform: scale(1.4) rotate(5deg);
     transition: 0.4s all;
     background-color: 	rgb(255, 187, 0);
 }
+.antd{
+    background-color: #292b2f;
+}
 .antd:hover{
         transform: scale(1.4) rotate(5deg);
     transition: 0.4s all;
-    background-color: #292b2f;
 }
 
 .fa-html5,.fa-css3-alt,.fa-js,.fa-react,.fa-bootstrap,.fa-npm,.fa-gripfire { 
     font-size: 2rem; 
 }
-.fbase, .html, .antd, .css, .bstrap, .js, .pshop, .reactjs {
+.fbase, .html, .antd,.wordpress, .css, .bstrap, .js, .pshop, .reactjs {
     display: flex
 ;
     flex-direction: column;
@@ -131,7 +154,7 @@
     transform: scale(1.4) rotate(5deg);
     background-color: orange;
 }
-.Pshop{
+.Pshop,.html5_icon,.css_icon{
     font-size: 2em;
 }
 .skill-fot {

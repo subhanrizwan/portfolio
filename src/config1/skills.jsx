@@ -54,7 +54,7 @@ I am from pakistan and currently
                 {/* <i class="fa-brands fa-bootstrap"></i> */}
                 <p>Java</p>
                 </div>
-                <div className="fbase">
+                <div className="wordpress">
                     {/* <RiJavaLine className='java_icon' /> */}
                 <i class="fa-brands fa-gripfire"></i>
                 <p>Wordpress</p> 
