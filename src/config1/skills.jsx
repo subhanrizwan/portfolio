@@ -4,13 +4,14 @@ import {SiAdobephotoshop} from 'react-icons/si';
 import Skillgif from '../assets/images/skill.gif'
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
-// import { IoLogoJavascript } from "react-icons/io";
-// import { FaReact } from "react-icons/fa6";
-// import { DiBootstrap } from "react-icons/di";
-// import { SiTailwindcss } from "react-icons/si";
-// import { SiFirebase } from "react-icons/si";
-// import { SiMysql } from "react-icons/si";
-// import { RiJavaLine } from "react-icons/ri";
+import { FaNodeJs } from "react-icons/fa";
+import { RiReactjsLine } from "react-icons/ri";
+import { FaJava } from "react-icons/fa";
+import { FaWordpressSimple } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
+import { DiMysql } from "react-icons/di";
+import { FaGitAlt } from "react-icons/fa";
+// import { TbBrandTailwind } from "react-icons/tb";
 
 
 const Skills = () => {
@@ -40,33 +41,33 @@ I am from pakistan and currently
                 <p>Css</p>
                 </div>
                 <div className="js">
-                    {/* <IoLogoJavascript  className="js_icon" /> */}
-                <i class="fa-brands fa-js"></i>
+                    <FaNodeJs  className="js_icon" />
+                {/* <i class="fa-brands fa-js"></i> */}
                 <p>JavaScript</p>
                 </div>
                 <div className="reactjs">
-                    {/* <FaReact className="react_icons" /> */}
-                <i class="fa-brands fa-react"></i>
+                    <RiReactjsLine className="react_icons" />
+                {/* <i class="fa-brands fa-react"></i> */}
                 <p>React Js</p>
                 </div>
                 <div className="bstrap">
-                  {/* <DiBootstrap className='bstrap_icon' />   */}
+                  <FaJava className='java_icon' />  
                 {/* <i class="fa-brands fa-bootstrap"></i> */}
                 <p>Java</p>
                 </div>
                 <div className="wordpress">
-                    {/* <RiJavaLine className='java_icon' /> */}
-                <i class="fa-brands fa-gripfire"></i>
+                    <FaWordpressSimple className='wp_icon' />
+                {/* <i class="fa-brands fa-gripfire"></i> */}
                 <p>Wordpress</p> 
                 </div>
                 <div className="bstrap">
-                  {/* <DiBootstrap className='bstrap_icon' />   */}
+                  <FaBootstrap className='bstarp_icon' />  
                 {/* <i class="fa-brands fa-bootstrap"></i> */}
-                <p>B-Strap</p>
+                <p>BootStrap</p>
                 </div>
-                <div className="antd">
-                    {/* <SiTailwindcss className='tailwind_icon'  /> */}
-                {/* <i class="fa-brands fa-npm"></i> */}
+                <div className="tailwind">
+                    {/* <TbBrandTailwind className='tailwind_icon'  /> */}
+                <i class="fa-brands fa-npm"></i>
                 <p>Tailwind</p>
                 </div>
                 <div className="pshop">
@@ -79,14 +80,14 @@ I am from pakistan and currently
                 <i class="fa-brands fa-gripfire"></i>
                 <p>Firebase</p> 
                 </div>
-                <div className="fbase">
-                    {/* <SiMysql className='sql_icon' /> */}
-                <i class="fa-brands fa-gripfire"></i>
+                <div className="mysql">
+                    <DiMysql className='sql_icon' />
+                {/* <i class="fa-brands fa-gripfire"></i> */}
                 <p>MySQL</p> 
                 </div>
                 
-                <div className="fbase">
-                {/* <RiJavaLine className='java_icon' /> */}
+                <div className="git">
+                <FaGitAlt className='git_icon' />
                 <p>Git</p> 
                 </div>
 
@@ -96,8 +97,8 @@ I am from pakistan and currently
             <div className='skill-fot'>
                 <p class="dark-mode subTitle skills-text">
                  Develop highly interactive Front end / User Interfaces for your web applications</p>
-                <p class="dark-mode subTitle skills-text">
-                     Develop creative projects with the team</p>
+                {/* <p class="dark-mode subTitle skills-text">
+                     Develop creative projects with the team</p> */}
                     <p class="dark-mode subTitle skills-text">
                         I can write high quality, performant and reliable code</p>
                         </div>

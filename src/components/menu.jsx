@@ -1,10 +1,5 @@
 import React from "react";
 import './menu.css'
-// import React from 'react'
-import HomeIcon from '@mui/icons-material/Home';
-import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
-import BarChartOutlinedIcon from '@mui/icons-material/BarChartOutlined';
-import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
 
 const Navbar = ()=>{
   return (

@@ -1,10 +1,6 @@
 import React from 'react'
 import './menubar.css'
-import HomeIcon from '@mui/icons-material/Home';
-import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
-import BarChartOutlinedIcon from '@mui/icons-material/BarChartOutlined';
-import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
-// import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
+
 
 const Menubar=()=>{
     return(

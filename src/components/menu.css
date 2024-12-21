@@ -65,7 +65,6 @@ nav ul li ul li a {
   padding: 15px;
   line-height: 20px;
 }
-
 .nav-dropdown {
   position: absolute;
   display: none;
@@ -83,8 +82,6 @@ nav ul li ul li a {
   height: 70px;
   width: 70px;
 }
-
-
 #nav-toggle {
   position: absolute;
   left: 18px;
@@ -138,6 +135,9 @@ nav ul li ul li a {
 nav ul li a, nav ul li a:visited {
   padding: 0px 15px;
   line-height: 75px;
+}
+nav {
+  display: none;
 }
 }
 /* @media only screen and (max-width: 798px) {

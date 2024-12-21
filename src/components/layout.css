@@ -57,22 +57,13 @@
   }
  @media only screen and (min-width:768px)
  {
-  .menubar {display:none !important;}
+  /* .menubar {display:none !important;} */
  }
-  @media only screen and (min-width:798px){
-    .menubar{
-        display: block;
-        display: flex;
-        justify-content: flex-end;
-        position: absolute;
-        top: 40px;
-         /* background-color: aqua;  */
-    }
-  }
+ 
 
   @media only screen and (max-width:320px){
     .menubar{
-        display: block;
+        /* display: block; */
         display: flex;
         justify-content: flex-end;
         position: absolute;
@@ -81,7 +72,7 @@
   }
   @media only screen and (max-width:375px){
     .menubar{
-        display: block;
+        /* display: block; */
         display: flex;
         justify-content: flex-end;
         position: absolute;
@@ -90,7 +81,7 @@
   }
   @media only screen and (max-width:425px){
     .menubar{
-        display: block;
+        /* display: block; */
         display: flex;
         justify-content: flex-end;
         position: absolute;
@@ -99,7 +90,7 @@
   }
   @media only screen and (max-width:768px){
     .menubar{
-        display: block;
+        /* display: block; */
         display: flex;
         justify-content: flex-end;
         position: absolute;

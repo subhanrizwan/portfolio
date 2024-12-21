@@ -4,12 +4,7 @@
     justify-content: center;
     padding: 5rem;
 }
-.home{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    /* padding: 0rem; */
-}
+
 
 .homeChild1{
     width: 750px;

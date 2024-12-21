@@ -1,6 +1,6 @@
 import React from "react";
 import './resumeBtn.css'
-import pdf from '../assets/images/Subhan.pdf';
+import pdf from '../assets/images/Subhan Ahmed.pdf';
 
 const Resume=()=>{
     return(
